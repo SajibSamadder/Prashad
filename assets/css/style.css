@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@font-face {
+  font-family: MyriadBold;
+  src: url(../font/myriad/Myriad\ Pro\ Bold.ttf);
+}
+@font-face {
+  font-family: MyriadRegular;
+
+  src: url(../font/myriad/Myriad\ Pro\ Regular.ttf);
+}
+body {
+  font-family: Myriad;
+  font-weight: lighter;
+}
+:root {
+  --roboto: "Roboto", sans-serif;
+}
+/* Top Bar Start */
+.top_bar {
+  background-color: #ec3323;
+  padding: 5px 0;
+}
+.top_bar p {
+  font-family: var(--roboto);
+  font-weight: 600;
+}
+.top-bar-left p {
+  font-size: 18px;
+  font-family: var(--roboto);
+}
+.phone {
+  margin-right: 30px;
+}
+.phone a,
+.email a {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  font-family: var(--roboto);
+}
+.email,
+.phone {
+  display: flex;
+}
+.phone span i,
+.email span i {
+  font-size: 18px;
+  color: #fff;
+  margin-right: 10px;
+}
+.email span,
+.phone span {
+  display: flex;
+  align-items: center;
+}
+
+.social-link ul li a i {
+  font-size: 18px;
+  color: #fff;
+  margin-right: 10px;
+}
+.social-link ul {
+  padding-left: 20px;
+}
+.top-bar-right {
+  display: flex;
+}
+.top-bar-right .login {
+  display: flex;
+}
+.top-bar-right {
+  justify-content: space-between;
+}
+.sign-in a,
+.sign-up a {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  line-height: 20px;
+  font-family: var(--roboto);
+}
+.sign-in a {
+  border-right: 2px solid #fff;
+  color: #000;
+  margin-right: 8px;
+  padding-right: 8px;
+}
+
+/* Top Bar End */
+/* Header Start */
+.logo > a > i {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #ec3323;
+}
+.logo-text h5 {
+  font-size: 33px;
+  font-family: MyriadBold;
+  letter-spacing: 6px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #002172;
+}
+.logo-text p {
+  font-size: 16px;
+  font-family: var(--roboto);
+  color: #777777;
+  font-weight: 400;
+}
+.header-wrapper {
+  padding: 20px 0;
+}
+.header-manu nav ul li > a {
+  font-family: MyriadRegular;
+}
+.header-manu > nav > ul {
+  display: flex;
+}
+.header-manu > nav > ul > li {
+  margin-right: 15px;
+}
+.header-manu > nav > ul > li > a {
+  color: #000;
+}
+.header-list > li.active > a {
+  color: #ec3323;
+}
+.drowp-down {
+  position: relative;
+}
+.drowp-down ul {
+  position: absolute;
+  top: 100%;
+  background-color: rgba(231, 231, 231, 0.664);
+  width: 250px;
+  left: 0;
+  border-radius: 5px;
+}
+.drowp-down ul > li {
+  padding: 5px 6px;
+  border-bottom: 1px solid #ddd;
+}
+.drowp-down ul > li > a {
+  color: #000;
+}
+header {
+  position: relative;
+  width: 100%;
+  z-index: 999;
+}
+.header-manu,
+.header-manu > nav,
+.header-manu > nav > ul {
+  height: 100%;
+}
+
+.container.header-sticky {
+  position: absolute;
+  background: #fff;
+  transform: translateX(100px);
+  border-radius: 0 0 80px 80px;
+}
+.header-list ul > li:last-child {
+  border-bottom: inherit;
+}
+.header-list ul > li:last-child {
+  border-bottom: inherit;
+}
+.header-list .drowp-down {
+  position: relative;
+}
+.header-list .drowp-down::after {
+  content: "\f078";
+  position: relative;
+  font-family: "Font Awesome 5 pro";
+  font-family: 900;
+  font-size: 14px;
+}
+.drowp-down > ul > li:hover {
+  background-color: rgba(231, 231, 231, 0.772);
+}
+.header-list > li > ul {
+  transform: translateY(40px);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.header-list > li:hover > ul {
+  transform: translateY(0px);
+  opacity: 1;
+  visibility: visible;
+}
+/* Header End */
+/* Banner Start */
+.banner-wrapper {
+  height: 100vh;
+  background-image: url("../img/img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+.banner-wrapper::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.189);
+}
+
+/* Banner End */
