@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/nice-select.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/css/deffult.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -86,51 +88,56 @@
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <div class="header-manu">
-                            <nav>
-                                <ul class="header-list">
-                                    <li class="active drowp-down">
-                                        <a href="#">Home</a>
-                                        <ul>
-                                            <li><a href="#">Home1</a></li>
-                                            <li><a href="#">Home2</a></li>
-                                            <li><a href="#">Home3</a></li>
-                                            <li><a href="#">Home4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">About</a>
-                                    </li>
-                                    <li class="drowp-down">
-                                        <a href="#">Properties</a>
-                                        <ul>
-                                            <li><a href="#">Home1</a></li>
-                                            <li><a href="#">Home2</a></li>
-                                            <li><a href="#">Home3</a></li>
-                                            <li><a href="#">Home4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="drowp-down">
-                                        <a href="#">Pages</a>
-                                        <ul>
-                                            <li><a href="#">Home1</a></li>
-                                            <li><a href="#">Home2</a></li>
-                                            <li><a href="#">Home3</a></li>
-                                            <li><a href="#">Home4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="drowp-down">
-                                        <a href="#">Blog</a>
-                                        <ul>
-                                            <li><a href="#">Home1</a></li>
-                                            <li><a href="#">Home2</a></li>
-                                            <li><a href="#">Home3</a></li>
-                                            <li><a href="#">Home4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </nav>
+                        <div class="header-right d-flex">
+                            <div class="header-manu">
+                                <nav>
+                                    <ul class="header-list">
+                                        <li class="active drowp-down">
+                                            <a href="#">Home</a>
+                                            <ul>
+                                                <li><a href="#">Home1</a></li>
+                                                <li><a href="#">Home2</a></li>
+                                                <li><a href="#">Home3</a></li>
+                                                <li><a href="#">Home4</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">About</a>
+                                        </li>
+                                        <li class="drowp-down">
+                                            <a href="#">Properties</a>
+                                            <ul>
+                                                <li><a href="#">Home1</a></li>
+                                                <li><a href="#">Home2</a></li>
+                                                <li><a href="#">Home3</a></li>
+                                                <li><a href="#">Home4</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="drowp-down">
+                                            <a href="#">Pages</a>
+                                            <ul>
+                                                <li><a href="#">Home1</a></li>
+                                                <li><a href="#">Home2</a></li>
+                                                <li><a href="#">Home3</a></li>
+                                                <li><a href="#">Home4</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="drowp-down">
+                                            <a href="#">Blog</a>
+                                            <ul>
+                                                <li><a href="#">Home1</a></li>
+                                                <li><a href="#">Home2</a></li>
+                                                <li><a href="#">Home3</a></li>
+                                                <li><a href="#">Home4</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="header-btn">
+                                <button>Submit Property</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -140,14 +147,101 @@
 
     </header>
     <!-- Header Area End  -->
+
     <!-- Banner Start -->
-    <section>
-        <div class="banner-wrapper">
-            <p>Hello</p>
+    <section class="banner">
+        <div class="owl-carousel">
+            <div class="item">
+                <div class="banner-wrapper"></div>
+            </div>
+            <div class="item">
+                <div class="banner-wrapper"></div>
+            </div>
+            <div class="item">
+                <div class="banner-wrapper"></div>
+            </div>
+            <div class="item">
+                <div class="banner-wrapper"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-titel">
+                    <h3 class="text-center">Find Your Dream Home for Living</h3>
+                </div>
+                <div class="banner-pra">
+                    <p class="text-center">It is a long established fact that a reader will be distracted by
+                        the
+                        readable content of a
+                        page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                        more-or-less normal distribution of letters, as opposed</p>
+                </div>
+                <div class="select-box">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="search-box">
+                                    <input type="text" placeholder="Search" autocomplete="off">
+                                    <i class="far fa-search"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="select-right">
+                                    <div class="city">
+                                        <select autocomplete="off">
+                                            <option data-disply="nothing">City</option>
+                                            <option value="City1">City1</option>
+                                            <option value="City2">City3</option>
+                                            <option value="City4">City4</option>
+                                            <option value="City5">City5</option>
+                                        </select>
+                                    </div>
+                                    <div class="state">
+                                        <select autocomplete="off">
+                                            <option data-disply="nothing">State</option>
+                                            <option value="State1">State1</option>
+                                            <option value="State2">State2</option>
+                                            <option value="State3">State3</option>
+                                        </select>
+                                    </div>
+                                    <div class="submit">
+                                        <input type="submit" value="search">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Banner End -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid omnis nobis quos, eum a quod eligendi
+        voluptatem animi! Quo totam, ab cum dolore tempore maiores. Cum excepturi aut reiciendis veritatis earum esse
+        maxime magnam sequi exercitationem. Labore voluptates, facere cum fuga iusto quibusdam veniam harum dolorem
+        mollitia ducimus ex totam repellendus molestias magni soluta maiores aspernatur modi commodi ea, assumenda
+        deleniti accusamus. Amet laudantium reiciendis architecto quia nesciunt molestias labore consequuntur saepe,
+        officia ipsam quod porro doloremque, sunt totam cum asperiores, quaerat eos ab libero voluptate quis animi
+        dignissimos? Aperiam harum fuga autem labore, molestiae iure doloribus provident quam tempore debitis maxime
+        accusamus dolorum, sed ratione illum cum voluptate dicta? Eligendi minus possimus sapiente laborum ipsam placeat
+        eius, consequuntur vel in, dicta aliquid cupiditate eaque sequi, recusandae at a perferendis natus eveniet
+        commodi facere iure modi accusantium veniam. Nam sapiente velit, cumque sint totam illo obcaecati adipisci
+        dolorum, quaerat atque quis consequatur quae architecto veritatis sed ab. Ullam atque ratione animi aliquid
+        soluta similique itaque excepturi dolores mollitia? Sequi eos perferendis sint eum voluptatem. Eum dolore
+        quibusdam natus pariatur quis error optio tenetur est enim molestiae id voluptatem reiciendis molestias culpa
+        voluptatum, iste cumque! Perferendis unde tempore voluptas libero.</p>
     <!-- Main End -->
+    <!-- Javascript here -->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/jquery.nice-select.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script>
+        $('select').niceSelect()
+        $(".owl-carousel").owlCarousel({
+            items: 1
+        });
+    </script>
 </body>
 
 </html>
